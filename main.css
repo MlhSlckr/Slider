@@ -1,0 +1,44 @@
+@import url("reset.css");
+.slider-container {
+  width: 70vh;
+  height: 50vh;
+  margin: 50px auto;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-container .slider {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-size: 60px;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+}
+
+.slider-container .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+}
+
+.slider-container .buttons .fas {
+  padding: 20px;
+  font-size: 50px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

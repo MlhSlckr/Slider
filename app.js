@@ -23,11 +23,9 @@ function carousel() {
 nextBtn.addEventListener('click', () => {
   counter++;
   carousel();
-  console.log(counter)
 })
 
 prevBtn.addEventListener('click', () => {
   counter--;
   carousel();
-  console.log(counter)
 })
